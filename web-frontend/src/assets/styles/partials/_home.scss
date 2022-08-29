@@ -1,0 +1,40 @@
+.home-page img {
+    width: 100%;
+}
+
+.my-courses {
+    display: flex;
+    justify-content: center;
+    color: #056547;
+}
+
+.home-courses {
+    border: 1px solid rgb(170, 169, 169);
+
+    img {
+        z-index: 0;
+    }
+
+    .btn-primary {
+        background-color: white;
+        border: none;
+    }
+
+    h6 {
+        margin-top: -15px;
+        background-color: #bd3b1b;
+        z-index: 1;
+    }
+
+    p {
+        font-size: larger;
+    }
+
+    .btn-secondary {
+        background-color: #056547;
+        font-size: large;
+        border-radius: 1px;
+        display: flex;
+        float: right;
+    }
+}

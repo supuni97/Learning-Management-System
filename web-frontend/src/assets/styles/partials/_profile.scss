@@ -1,0 +1,51 @@
+.profile-background {
+    opacity: 0.3;
+    z-index: 0;
+    position: fixed;
+}
+
+.profile-content {
+    z-index: 1;
+    margin-top: 12%;
+
+    .profile-avata {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding: 0;
+    }
+
+    .profile-details {
+        padding-left: 20%;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        h4 {
+            margin-bottom: 30px;
+        }
+    }
+
+    .profile-edit-btn {
+        font-weight: bold;
+        width: 150px;
+        margin: 40px 0 50px 30px;
+        background-color: #bd3b1b;
+        border: none;
+    }
+
+    .profile-edit-btn:hover {
+        background-color: #056547;
+    }
+
+    .edit {
+        display: flex;
+        float: right;
+        cursor: pointer;
+    }
+
+    .discription {
+        font-size: 120%;
+    }
+}

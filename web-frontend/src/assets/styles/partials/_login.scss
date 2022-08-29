@@ -1,0 +1,98 @@
+.login-page {
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+        width: 100%;
+    }
+
+    .login-content {
+        border: 1px solid gray;
+        width: 400px;
+        display: flex;
+        margin: auto;
+        margin-top: -50%;
+        background-color: white;
+
+        //opacity: 0.4;
+        img {
+            width: 35%;
+            display: flex;
+            margin: auto;
+        }
+
+        .form-control {
+            color: black;
+            //margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        h6 {
+            color: #056547;
+        }
+
+        .submit {
+            width: 100%;
+            background-color: rgb(236, 229, 229);
+            color: #bd3b1b;
+            border: 1px solid #ced4da;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .code {
+            background-color: #056547;
+            border: none;
+            border-radius: 0;
+            float: right;
+            margin-top: -52px;
+            font-weight: bold;
+            width: 130px;
+        }
+
+        .code1 {
+            background-color: rgb(236, 229, 229);
+            color: #056547;
+            border: none;
+            border-radius: 0;
+            width: 100%;
+            font-weight: bold;
+            border: 1px solid #ced4da;
+        }
+    }
+
+    .submit:hover {
+        width: 100%;
+        background-color: #bd3b1b;
+        color: white;
+        border: none;
+        margin-top: 30px;
+    }
+
+    .code1:hover {
+        background-color: #056547;
+        color: white;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        font-weight: bold;
+    }
+
+}
+
+#hide {
+    display: none;
+}
+
+.register {
+    width: 700px !important;
+    //margin-top: -700px !important;
+
+    img {
+        width: 20% !important;
+    }
+}
+
+.errors {
+    color: red;
+}

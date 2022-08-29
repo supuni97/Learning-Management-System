@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.RegisterActivity"
+    android:background="@drawable/background_reg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="645dp"
+        android:background="#3fff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/logo"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Virtual Learning Environment"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="First Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Middle Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Last Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Home Address"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Degree program"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Mobile"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="User Type"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Registered Date"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Retype Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:hint="Code"
+        android:textColor="@color/darkRed"
+        android:textColorHint="@color/darkRed"
+        android:textSize="15dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="2dp"
+        android:background="@color/darkgreen"
+        android:text="Verify"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="2dp"
+        android:background="@color/darkgreen"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txt_backtologin"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Already Have a account?"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>
