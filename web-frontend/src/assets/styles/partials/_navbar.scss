@@ -1,0 +1,122 @@
+.row {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-navbar {
+    position: fixed;
+    height: 650px;
+    background-color: #056547;
+    width: 100px;
+    z-index: 50;
+}
+
+.calassaple-btn {
+    border: none;
+
+    span {
+        font-size: 120%;
+        background-image: url('../../images/menu.svg') !important;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.icon {
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    width: 75%;
+    margin-bottom: 5.5px;
+}
+
+.icon1 {
+    width: 35% !important;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.icon1:hover {
+    width: 38% !important;
+    margin-bottom: 4px;
+}
+
+.icon-text {
+    margin-top: -45px;
+    margin-left: 60px;
+    color: white;
+}
+
+.navbar {
+    background-color: #056547;
+    width: 200px;
+}
+
+.topnav-content {
+    padding-left: 124px;
+}
+
+.top-navbar {
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.205));
+    height: 90px;
+    width: 100%;
+    z-index: 100;
+
+    .logo {
+        margin-top: 10px;
+        width: 80px;
+    }
+
+    .logo-text {
+        margin-top: 20px;
+        color: #056547;
+        font-weight: 400;
+    }
+
+    .profile {
+        margin-top: 25px;
+        width: 40px;
+    }
+
+    .profile:hover {
+        width: 45px;
+    }
+}
+
+.calendar {
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 150px;
+    z-index: 1000;
+}
+
+.cource {
+    position: fixed;
+    width: 250px;
+    background-color: #056547;
+    margin-left: 90px;
+    margin-top: 150px;
+    z-index: 1000;
+    padding-right: 20px;
+
+    .cource-icon {
+        width: 50px;
+    }
+
+    h6 {
+        margin-top: -23px;
+        margin-left: 30px;
+        color: white;
+    }
+}
